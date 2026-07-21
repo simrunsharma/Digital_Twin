@@ -1,0 +1,9 @@
+#the packages needed for the environment
+#gradio is in hugging face but best practice adding in
+#os is not needed built into python
+#packages(tools) can be found in pypy
+#install using pip will install the ones in this file
+#then we need to load it into our environment using import statements
+#to install into our .py file
+gradio
+openai
