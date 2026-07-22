@@ -3,22 +3,22 @@ Deploying Digital Twin: Built from Digital Twin IPYNB
 """
 import os
 from openai import OpenAI
-from IPython.display import display, Markdown
+# from IPython.display import display, Markdown
 import gradio as gr 
-from dotenv import load_dotenv
-import json
-import uuid
-import random
-import requests
-import chromadb
-from pprint import pprint
+# from dotenv import load_dotenv
+# import json
+# import uuid
+# import random
+# import requests
+# import chromadb
+# from pprint import pprint
 
 
 #Setup-------------
 
 #no loading the environment needed because its app.py
 #You don't need it in production, hugging face already does it, but ipynb its to load into local machine
-load_dotenv()
+# load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
